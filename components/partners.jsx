@@ -8,7 +8,7 @@ const Partners = () => {
             <div className="md:items-center">
                 <h1>Trusted by:</h1>
             </div>
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center space-x-3 cursor-pointer">
                 <FontAwesomeIcon icon={faVuejs} className="h-14"/>
                 <div className="text-lg tracking-widest">
                     <h1>VICTORY</h1>
@@ -16,7 +16,7 @@ const Partners = () => {
                 </div>
             </div>
 
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 cursor-pointer">
                 <FontAwesomeIcon icon={faCloudflare} className="h-14" />
                 <div className=" leading-3">
                     <h1 className="text-lg leading-3 tracking-widest">CLOUD NINE</h1>
@@ -25,7 +25,7 @@ const Partners = () => {
             </div>
             
             
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 cursor-pointer">
                 <FontAwesomeIcon icon={faStumbleuponCircle} className="h-14" />
                 <h1 className="font-bold text-2xl tracking-wider">The mob musuem</h1>
             </div>

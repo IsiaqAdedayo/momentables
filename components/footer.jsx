@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="flex flex-col space-y-10 px-6 py-14 mt-28 md:mt-44 bg-grayish bg-opacity-30 md:grid md:grid-cols-3 md:place-items-center md:space-y-0">
             <div className="md:space-y-3 space-y-8">
                 <div className="flex space-x-3">
-                    <FontAwesomeIcon icon={faInstagram} className="h-6" />
-                    <FontAwesomeIcon icon={faTwitter}  className="h-6" />
-                    <FontAwesomeIcon icon={faFacebookF}  className="h-6" />
+                    <FontAwesomeIcon icon={faInstagram} className="h-6 cursor-pointer" />
+                    <FontAwesomeIcon icon={faTwitter}  className="h-6 cursor-pointer" />
+                    <FontAwesomeIcon icon={faFacebookF}  className="h-6 cursor-pointer" />
                 </div>
                 
                 <h1>&copy; 2021 Momentable</h1>

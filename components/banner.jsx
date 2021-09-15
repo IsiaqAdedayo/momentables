@@ -24,7 +24,7 @@ const Banner = () => {
                     <h1 className="text-grd">NFT-based Marketplace.</h1>
                 </div>
 
-                <div className="uppercase text-xs md:text-sm tracking-widest px-5 rounded-lg p-3 bg-white text-black font-bold">
+                <div className="uppercase text-xs md:text-sm tracking-widest px-5 rounded-lg p-3 bg-white text-black font-bold cursor-pointer">
                     <h1>Request Access</h1>
                 </div>
             </div>
