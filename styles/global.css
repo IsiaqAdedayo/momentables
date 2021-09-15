@@ -1,0 +1,23 @@
+.text-grd{
+    background: -webkit-linear-gradient(#ffc0cb, #b306b3);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-grdd{
+    background: -webkit-linear-gradient(#b306b3, #800080);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient{
+    background: -webkit-linear-gradient(#cc05cc, #a102a1, #1c0080);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #585858d8;
+}
+
+.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
